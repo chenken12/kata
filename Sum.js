@@ -4,7 +4,7 @@ const sumLargestNumbers = function(data) {
   for (let i = 0; i < data.length; i++) {
     for (let j = 0; j < data.length; j++) {
       let sum = data[i] + data[j];
-      if (i != j && bigNum < sum) {
+      if (i !== j && bigNum < sum) {
         bigNum = sum;
       }
     }

@@ -11,7 +11,7 @@ const numberOfVowels = function(data) {
       }
     }
   }
- return count;
+  return count;
 };
 
 console.log(numberOfVowels("orange"));
